@@ -61,3 +61,25 @@ The solution for n = 2000 can be found in 44 seconds.
 | Randomness with Propagation |    49 |            3 |                  ~16,000 |            N/A |                     N/A |
 | Population Based Search     |  ~100 |            0 |                        7 |              1 |                       7 |
 | Explicit Solution           | 1000+ |            0 |                        1 |            N/A |                     N/A |
+
+## Usage
+```
+
+Usage: 
+	java Main [integer from 0 to 7]
+
+Parameters: 
+	0 - random search
+	1 - semi-random search
+	2 - naive blind search
+	3 - intermediate blind search
+	4 - advanced blind search
+	5 - iterative repair
+	6 - population based search
+	7 - explicit solution
+
+Examples: 
+	java Main 1
+	java Main 6
+  
+```
