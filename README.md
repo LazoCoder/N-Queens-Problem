@@ -50,6 +50,7 @@ The solution for n = 1000 can be found in 6 seconds.
 The solution for n = 2000 can be found in 44 seconds.
 
 # Summary
+This table displays the largest board (and number of queens) that each algorithm can solve in under 20 seconds.
 
 | Algorithm                   | Queens| Time Elapsed | Configurations Attempted | Local Optimums | Steps to Global Optimum |
 | --------------------------- | -----:|-------------:|-------------------------:|---------------:|------------------------:|
