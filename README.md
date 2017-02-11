@@ -51,10 +51,8 @@ The solution for n = 2000 can be found in 44 seconds.
 
 ## Summary
 
-This table summarizes the largest board dimensions (n) that can be solved in under 20 seconds.
-
-| Algorithm                   |   n   | Time Elapsed | Configurations Attempted | Local Optimums | Steps to Global Optimum |
-| --------------------------- |------:|-------------:|-------------------------:|---------------:|------------------------:|
+| Algorithm                   | Queens| Time Elapsed | Configurations Attempted | Local Optimums | Steps to Global Optimum |
+| --------------------------- | -----:|-------------:|-------------------------:|---------------:|------------------------:|
 | Naive Blind Search          |     6 |            2 |                 ~450,000 |            N/A |                     N/A |
 | Completely Random Search    |     7 |            0 |                 ~330,000 |            N/A |                     N/A |
 | Intermediate Blind Search   |     8 |           13 |               ~1,500,000 |            N/A |                     N/A |
