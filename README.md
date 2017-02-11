@@ -36,7 +36,7 @@ Places queens on the board one by one at random locations that are valid (locati
 The largest board that this algorithm can solve in under 20 seconds is n = 49. This takes 3 seconds and ~16,000 attempts.
 
 ## Population Based Search
-Initialize the board by putting n queens on the diagonal. Generate 10 child boards that are clones of the parent. For each child, move all the queens that are being attack to a completely safe location on the same column. If such a location does not exist, move it to a random location on the same column. Find the child with the least amount of threatened queens (this is the same heuristic use in the Iterative Repair algorithm) and repeat the process until a solution is found.
+Initialize the board by putting n queens on the diagonal. Generate 10 child boards that are clones of the parent. For each child, move all the queens that are being attack to a completely safe location on the same column. If such a location does not exist, move it to a random location on the same column. Find the child with the least amount of threatened queens (this is the same heuristic used in the Iterative Repair algorithm) and repeat the process until a solution is found.
 
 This algorithm takes more "steps" to travel to the global optimum than the Iterative Repair Algorithm but it is much faster since it is very unlikely to get stuck on a local optimum and have to restart. This significantly reduces the total number of configurations attempted, and thus reduces the total time.
 
