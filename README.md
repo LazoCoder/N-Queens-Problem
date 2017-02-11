@@ -49,7 +49,7 @@ The solution for n = 1000 can be found in 6 seconds.
 
 The solution for n = 2000 can be found in 44 seconds.
 
-## Summary
+# Summary
 
 | Algorithm                   | Queens| Time Elapsed | Configurations Attempted | Local Optimums | Steps to Global Optimum |
 | --------------------------- | -----:|-------------:|-------------------------:|---------------:|------------------------:|
@@ -62,7 +62,7 @@ The solution for n = 2000 can be found in 44 seconds.
 | Population Based Search     |  ~100 |            0 |                        7 |              1 |                       7 |
 | Explicit Solution           | 1000+ |            0 |                        1 |            N/A |                     N/A |
 
-## Usage
+# Usage
 ```
 
 Usage: 
