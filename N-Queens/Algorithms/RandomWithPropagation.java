@@ -16,7 +16,7 @@ import java.util.Random;
  * The largest board that this algorithm can solve in under 20
  * seconds on my Dell Latitude is n = 49, which takes 3 seconds.
  */
-public class SemiRandom {
+public class RandomWithPropagation {
 
     /**
      * Begin the search.

@@ -152,7 +152,7 @@ public class Utility {
      * Example:
      * The command "java Utility 100 5" will search for a seed that
      * solves the N-Queens problem where n = 100 in under 5 seconds
-     * using the Heuristic Search.
+     * using the Population Based Search.
      * @param args      terminal parameters (n and the time limit)
      */
     public static void main(String[] args) {

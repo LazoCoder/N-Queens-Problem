@@ -19,7 +19,7 @@ import java.util.Random;
  * The largest board that this algorithm can solve in under 20
  * seconds on my Dell Latitude is n = 19, which takes 7 seconds.
  */
-public class IterativeRepair {
+public class PopulationBased {
 
     private static long seed;
 
@@ -34,7 +34,7 @@ public class IterativeRepair {
 
         if (n < 4) return false;
 
-        IterativeRepair.seed = seed;
+        PopulationBased.seed = seed;
 
         long before = System.nanoTime(); // For measuring the time elapsed.
         HashSet<String> history = new HashSet<>(); // For catching duplicates.

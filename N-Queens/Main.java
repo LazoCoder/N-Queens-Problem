@@ -26,6 +26,10 @@ public class Main {
         handleParameters(arg);
     }
 
+    /**
+     * Deals with the command line parameters. Determines the algorithm to run.
+     * @param arg   the value that the user inputted
+     */
     private static void handleParameters(int arg) {
         if (arg == 0) {
             int n = getIntInput("Queens: ");
@@ -36,7 +40,7 @@ public class Main {
             int n = getIntInput("Queens: ");
             int seed = getIntInput("Seed: ");
             boolean debug = getBooleanInput();
-            SemiRandom.search(n, seed, debug);
+            RandomWithPropagation.search(n, seed, debug);
         } else if (arg == 2) {
             int n = getIntInput("Queens: ");
             int timeLimit = getIntInput("Time Limit (secs): ");
@@ -57,7 +61,7 @@ public class Main {
             int seed = getIntInput("Seed: ");
             int timeLimit = getIntInput("Time Limit (secs): ");
             boolean debug = getBooleanInput();
-            IterativeRepair.search(n, seed, timeLimit, debug);
+            PopulationBased.search(n, seed, timeLimit, debug);
         } else if (arg == 6) {
             int n = getIntInput("Queens: ");
             int seed = getIntInput("Seed: ");
@@ -72,6 +76,9 @@ public class Main {
         }
     }
 
+    /**
+     * Menu outlining the usage of the program.
+     */
     private static void printMenu() {
         System.out.println();
         System.out.println("Usage: ");
@@ -95,6 +102,10 @@ public class Main {
         System.out.println();
     }
 
+    /**
+     * Get boolean value from the user. Exit if invalid input.
+     * @return      the user input
+     */
     private static boolean getBooleanInput() {
         System.out.print("Debug Mode: ");
         Scanner scanner = new Scanner(System.in);
@@ -108,6 +119,11 @@ public class Main {
         return input;
     }
 
+    /**
+     * Get integer value from the user. Exit if invalid input.
+     * @param msg   the message to prompt the user
+     * @return      the user input
+     */
     private static int getIntInput(String msg) {
         System.out.print(msg);
         Scanner scanner = new Scanner(System.in);
