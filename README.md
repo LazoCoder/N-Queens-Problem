@@ -84,3 +84,9 @@ Examples:
 	java Main 6
   
 ```
+
+# Sample Run
+
+Q represents a queen. Dashes represent an empty location. Stars represents a threatened location.
+
+![alt-tag](N-Queens/Sample/screenshot.png)
