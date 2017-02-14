@@ -89,4 +89,4 @@ Examples:
 
 Q represents a queen. Dashes represent empty locations. Stars represent threatened locations.
 
-![alt-tag](N-Queens/Sample/screenshot.png)
+![alt-tag](Sample/screenshot.png)
