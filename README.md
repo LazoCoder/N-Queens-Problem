@@ -87,6 +87,6 @@ Examples:
 
 # Sample Run
 
-Q represents a queen. Dashes represent an empty location. Stars represents a threatened location.
+Q represents a queen. Dashes represent empty locations. Stars represent threatened locations.
 
 ![alt-tag](N-Queens/Sample/screenshot.png)
